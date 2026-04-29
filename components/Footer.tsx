@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="font-body text-xs text-white/25 text-center sm:text-left">
-            ИП Суязова Карина Вячеславовна · ИНН: 010520521782
+            ИП Суязова Карина Вячеславовна · ИНН: 010520521782 · ОГРНИП: 326010000003591
           </p>
         </div>
       </div>
