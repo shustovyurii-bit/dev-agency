@@ -12,7 +12,7 @@ const fadeUp = {
   }),
 };
 
-const typedWords = ["стратегии", "рекламу", "цифровой рост", "результат"];
+const typedWords = ["веб-приложения", "мобильные приложения", "корпоративный софт", "MVP за 30 дней"];
 
 function useTypewriter(words: string[], speed = 75, pause = 2000) {
   const [displayed, setDisplayed] = useState("");
@@ -86,7 +86,7 @@ export default function Hero() {
             variants={fadeUp}
             className="inline-block mb-4 px-4 py-1.5 bg-brand-50 text-brand-600 text-sm font-body font-medium rounded-full border border-brand-200"
           >
-            Маркетинговое агентство
+            Разработка программного обеспечения
           </motion.span>
 
           <motion.h1
@@ -96,11 +96,11 @@ export default function Hero() {
             variants={fadeUp}
             className="font-heading font-bold text-5xl md:text-6xl lg:text-7xl text-text-primary leading-tight mb-6"
           >
-            Маркетинг,{" "}
+            Разработка,{" "}
             <span className="bg-gradient-to-r from-brand-400 via-sky-400 to-brand-600 bg-[length:200%_auto] animate-gradient-shift bg-clip-text text-transparent">
-              который работает
+              которая решает
             </span>{" "}
-            на результат
+            задачи бизнеса
           </motion.h1>
 
           {/* Typed text */}
@@ -111,7 +111,7 @@ export default function Hero() {
             variants={fadeUp}
             className="font-body text-lg text-text-secondary leading-relaxed mb-10 max-w-lg"
           >
-            Digital SU — создаём{" "}
+            Dev Agency — разрабатываем{" "}
             <span className="text-brand-500 font-medium">
               {typed}
               <span className="animate-pulse">|</span>
@@ -156,8 +156,8 @@ export default function Hero() {
             <div className="relative h-64 w-full overflow-hidden">
               <motion.img
                 style={{ y: photoY }}
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&auto=format"
-                alt="Команда Digital SU"
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format"
+                alt="Разработка программного обеспечения"
                 className="w-full h-[130%] object-cover"
               />
               <div className="absolute inset-0 bg-brand-600/20" />
@@ -167,9 +167,9 @@ export default function Hero() {
             <div className="bg-brand-50 border border-brand-100 p-6">
               <div className="grid grid-cols-3 gap-3 mb-3">
                 {[
-                  { label: "Направлений работы", value: "6" },
-                  { label: "Часов до запуска", value: "48" },
-                  { label: "Поддержка клиентов", value: "24/7" },
+                  { label: "Технологий в стеке", value: "10+" },
+                  { label: "Дней до MVP", value: "30" },
+                  { label: "Поддержка", value: "24/7" },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-white rounded-2xl p-4 border border-border">
                     <div className="font-heading font-bold text-2xl text-brand-500 mb-0.5">{stat.value}</div>
@@ -178,8 +178,8 @@ export default function Hero() {
                 ))}
               </div>
               <div className="bg-brand-500 rounded-2xl p-4 text-white">
-                <div className="font-body text-sm opacity-80 mb-0.5">Скидка первым 10 клиентам</div>
-                <div className="font-heading font-bold text-3xl">−20%</div>
+                <div className="font-body text-sm opacity-80 mb-0.5">Первым клиентам</div>
+                <div className="font-heading font-bold text-3xl">Бесплатная консультация</div>
               </div>
             </div>
           </div>

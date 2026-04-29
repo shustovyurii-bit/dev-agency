@@ -31,7 +31,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#hero" className="font-heading font-bold text-xl text-text-primary tracking-tight">
-          Digital <span className="text-brand-500">SU</span>
+          Dev <span className="text-brand-500">Agency</span>
         </a>
 
         {/* Desktop nav */}

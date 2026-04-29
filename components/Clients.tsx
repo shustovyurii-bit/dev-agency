@@ -3,16 +3,16 @@
 import { motion } from "framer-motion";
 
 const clients = [
-  "Ритейл и e-commerce",
-  "Строительство",
-  "HoReCa",
-  "IT и стартапы",
-  "Медицина",
-  "Образование",
-  "Фитнес и велнес",
-  "Недвижимость",
-  "Авто и мото",
-  "B2B услуги",
+  "Стартапы и MVP",
+  "E-commerce",
+  "Финтех",
+  "Медтех",
+  "EdTech",
+  "Логистика",
+  "B2B SaaS",
+  "Маркетплейсы",
+  "HR-платформы",
+  "Корпоративный сектор",
 ];
 
 export default function Clients() {
@@ -32,7 +32,7 @@ export default function Clients() {
             Ниши, с которыми мы работаем
           </span>
           <h2 className="font-heading font-semibold text-4xl md:text-5xl text-text-primary leading-tight">
-            Мы знаем <span className="bg-gradient-to-r from-brand-400 via-sky-400 to-brand-600 bg-[length:200%_auto] animate-gradient-shift bg-clip-text text-transparent">эти рынки</span>
+            Мы работаем в <span className="bg-gradient-to-r from-brand-400 via-sky-400 to-brand-600 bg-[length:200%_auto] animate-gradient-shift bg-clip-text text-transparent">этих нишах</span>
           </h2>
         </motion.div>
       </div>

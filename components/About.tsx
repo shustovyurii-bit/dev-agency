@@ -4,8 +4,8 @@ import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 
 const stats = [
-  { to: 6,  suffix: "",    label: "Направлений маркетинга" },
-  { to: 48, suffix: " ч",  label: "До запуска проекта" },
+  { to: 10, suffix: "+", label: "Технологий в стеке" },
+  { to: 30, suffix: " дн", label: "До запуска MVP" },
 ];
 
 const fadeUp = {
@@ -71,25 +71,26 @@ export default function About() {
               variants={fadeUp}
               className="font-heading font-semibold text-4xl md:text-5xl text-text-primary leading-tight mb-6"
             >
-              Мы — команда, которая{" "}
+              Пишем код,{" "}
               <span className="bg-gradient-to-r from-brand-400 via-sky-400 to-brand-600 bg-[length:200%_auto] animate-gradient-shift bg-clip-text text-transparent">
-                понимает ваш бизнес
+                который работает на вас
               </span>
             </motion.h2>
 
             <motion.p custom={2} variants={fadeUp} className="font-body text-text-secondary text-lg leading-relaxed mb-4">
-              Digital SU — это команда маркетологов, дизайнеров и разработчиков,
-              объединённых одной целью: помогать бизнесу расти в цифровой среде.
+              Dev Agency — команда разработчиков, дизайнеров и архитекторов,
+              объединённых одной целью: создавать ПО, которое решает реальные
+              задачи бизнеса.
             </motion.p>
             <motion.p custom={3} variants={fadeUp} className="font-body text-text-secondary text-lg leading-relaxed mb-4">
-              Мы не просто исполняем задачи — мы погружаемся в ваш продукт,
-              изучаем конкурентов и выстраиваем стратегию, которая даёт
-              измеримый результат.
+              Мы не просто пишем код — мы разбираемся в вашем продукте,
+              предлагаем оптимальную архитектуру и выстраиваем процесс
+              разработки, который даёт результат в срок.
             </motion.p>
             <motion.p custom={4} variants={fadeUp} className="font-body text-text-secondary text-lg leading-relaxed">
-              Агентство молодое, но за каждым специалистом команды — реальные
-              проекты в e-commerce, HoReCa и IT. Первым клиентам предлагаем
-              особые условия сотрудничества.
+              За плечами команды — проекты в стартапах, e-commerce и
+              корпоративном секторе. Первым клиентам предлагаем бесплатную
+              техническую консультацию.
             </motion.p>
           </motion.div>
 
@@ -109,8 +110,8 @@ export default function About() {
             >
               <motion.img
                 style={{ y: photoY }}
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=500&fit=crop&auto=format"
-                alt="Команда Digital SU в офисе"
+                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=500&fit=crop&auto=format"
+                alt="Разработчик за работой"
                 className="w-full h-[130%] object-cover"
               />
               <div className="absolute inset-0 bg-brand-500/10" />
